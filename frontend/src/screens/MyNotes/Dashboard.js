@@ -20,7 +20,7 @@ function Dashboard({history}) {
 
   return (
     
-    <h1 className="h1" style={{marginTop: "150px", marginBottom: "-100px"}}> Welcome </h1>
+    <h1 className="h1" style={{marginTop: "150px", marginBottom: "-119px"}}> Welcome </h1>
   );
 }
 
