@@ -20,7 +20,7 @@ const Table = ({history}) => {
       history.push("/");}    
    },[history,userInfo])
   return (
-    <div id="retool" style={{margin: "auto", marginBottom: "-300px", marginTop:"60px"}}>
+    <div id="retool" style={{margin: "auto", marginBottom: "-100px", marginTop:"60px"}}>
       <Retool
         url="https://nexusesarpit.retool.com/embedded/public/2216dd1a-3cc5-404d-a637-092a2f8833f7"
         data={data}

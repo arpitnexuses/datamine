@@ -15,9 +15,7 @@ const reducer = combineReducers({
   userRegister: userRegisterReducer,
   fileUpload: fileUploadReducer,
   userUpdate: userUpdateReducer,
-
   userList: userListReducer,
-
 });
 
 const userInfoFromStorage = localStorage.getItem("userInfo")

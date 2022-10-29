@@ -1,9 +1,9 @@
 #choose{
-
+    margin-bottom: -100px;
     text-align: center;
 }
 #file{
-    width: 340px;
+    width: 330px;
     margin: auto;
     display: flex;
     font-size: 20px;
@@ -17,4 +17,5 @@
 #buto{
     font-size: 14px;
     width: 100px;
+    
 }
