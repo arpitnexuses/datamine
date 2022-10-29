@@ -1,0 +1,20 @@
+#choose{
+
+    text-align: center;
+}
+#file{
+    width: 340px;
+    margin: auto;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4.8%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 8px;
+    background: rgba(0, 102, 255, 0.636);
+}
+#buto{
+    font-size: 14px;
+    width: 100px;
+}

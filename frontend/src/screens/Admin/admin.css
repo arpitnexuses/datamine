@@ -1,0 +1,17 @@
+.mainsc{
+    text-align: center;
+}
+#linkbutton{
+    background: red;
+    text-align: center !important;
+    width: 290px;
+}
+.mop{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 480px) {
+    .mop{
+        display: none !important;
+    }
+}

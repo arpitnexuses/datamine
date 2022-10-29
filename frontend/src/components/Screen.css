@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
+
+.mainback {
+  min-height: 93vh;
+  display: flex;
+  padding: 10px 0;
+}
+.page {
+  width: 100%;
+}
+.heading {
+  font-size: 60px;
+  /* font-family: "Ubuntu", sans-serif; */
+  font-family: "Work Sans", sans-serif;
+  padding: 5px 10px;
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#links{
+  font-size: 23px !important;
+}
+#links:hover{
+  color: red;
+}
+#logos{
+  width: 260px ;
+  height: 80px;
+}
+
+
+@media screen and (max-width: 480px) {
+  #links{
+    margin-right: 100%!important;
+    margin-left: 80px;
+    display: none;
+
+  }
+  #logos{
+    width: 190px ;
+    height: 65px;
+
+  }
+  .button-50{
+    margin-left: 150px;
+    display: none !important;
+  }
+  input[type=checkbox]:checked~#links{
+    display: block !important;
+  }
+
+}
