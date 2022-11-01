@@ -12,27 +12,27 @@ const adminSchema = mongoose.Schema(
   },  
   Title:{  
     type:String,
-    require:true 
+
   },  
   Company_Name:{  
     type:String,
-    require:true
+ 
   },  
   Email:{  
     type:String,
-    require:true
+  
   },  
   Email_Status:{  
     type:String,
-    require:true  
+   
   },  
   Seniority:{  
     type:String,
-    require:true  
+
   },  
   Departments:{  
     type:String,
-    require:true 
+ 
   },  
   Presonal_Phone:{  
     type:Number,
@@ -44,27 +44,40 @@ const adminSchema = mongoose.Schema(
   },
   Employees: {
     type:Number,
-    require:true 
+    
   },
   Industry: {
     type:String,
-    require:true  
+    
   },
   Person_Linkedin_Url: {
     type:String,
-    require:true  
+    
+  },
+  Contact_Loaction: {
+    type: String,
+  },
+  Company_Address:{
+    type: String,
+  },
+  Technologies: {
+    type: String,
   },
   Website: {
     type:String,
-    require:true 
+    
   },
   Company_Linkedin_Url: {
     type:String,
-    require:true 
+    
   },
   Company_Country:{
     type:String,
-    require:true 
+   
+  },
+  Total_Funding:{
+    type: String,
+    
   },
   Annual_Revenue:{
     type:Number

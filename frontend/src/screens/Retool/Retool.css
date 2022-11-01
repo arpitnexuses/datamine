@@ -2,5 +2,9 @@
     margin-top: 30px;
     margin: auto !important;
     text-align: center;
-    margin-bottom: -380px!important;
+
+}
+.ag-theme-alpine{
+   display: inline-block;
+
 }

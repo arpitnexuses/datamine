@@ -23,6 +23,7 @@ const ExcelToJson = ({history}) => {
         setFile('');
       } else {
         console.log('no');
+        alert(`Upload Only Excel File!`);
       }
     });
   };
